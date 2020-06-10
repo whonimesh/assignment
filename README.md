@@ -1,4 +1,24 @@
-<!DOCTYPE html><html><body>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript  Loop</h2>
+
 <p id="demo"></p>
-<script>var cars = ["Hello","Goodbye"];var text = "";var i;for (i = 0; i < cars.length; i++) {  text += cars[i] + "<br>";}document.getElementById("demo").innerHTML = text;</script>
-</body></html>
+
+<script>
+var text = " Nimesh"
+var i = 0;
+
+do {
+  text += "<br>Hello"  + text;
+  text += "<br>Goodbye" +text;
+  i++;
+}
+while (i < 1);  
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
